@@ -1,0 +1,27 @@
+main {
+    .titulo-nosotros {
+        color: white;
+        background-color: black;
+        font-size: 50px;
+        font-family: 'Vina Sans', sans-serif;
+        text-align: center;
+        border-bottom: 0;
+    }
+    .nosotros-flex {
+        display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url(../img/detroitpistonsfondo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+        p{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+            font-size: 18px;
+            margin: 0 0 30px 0;
+            background-color: rgba(0, 0, 0, 0.363);
+            color: white;
+        }
+    }
+}

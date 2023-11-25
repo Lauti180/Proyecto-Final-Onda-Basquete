@@ -1,0 +1,43 @@
+main {
+    .titulo-descuentos {
+        color: white;
+        background-color: black;
+        font-size: 50px;
+        font-family: 'Vina Sans', sans-serif;
+        text-align: center;
+        border-bottom: 0;
+    }
+    .descuentos {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        border-bottom: 0;
+        background-image: url(../img/goldenstatefondo.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        flex-wrap: wrap;
+        div{
+            border: 5px solid black;
+    width: 300px;
+    height: 385px;
+    margin: 20px;
+    text-align: center;
+    background-color: rgba(8, 8, 8, 0.418);
+    border-radius: 20px;
+            img{
+                width: 300px;
+                height: 300px;
+            }
+            a{
+                text-decoration: none;
+                background-color: black;
+                color: whitesmoke;
+                font-family: 'Vina Sans', sans-serif;
+                font-size: 25px;
+                border-radius: 10px;
+                padding: 7px;
+            }
+        }
+    }
+}

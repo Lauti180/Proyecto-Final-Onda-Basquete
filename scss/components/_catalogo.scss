@@ -1,0 +1,50 @@
+main {
+    .titulo-catalogo{
+        text-align: center;
+        background-color: black;
+        color: white;
+        font-family: 'Vina Sans', sans-serif;
+        padding: 5px;
+        margin-bottom: 0;
+    }
+    .catalogo-flex {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        text-align: center;
+        flex-wrap: wrap;
+        background-image: url(../img/fondochicagobulls.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        div{
+            border: 2px solid black;
+    width: 300px;
+    height: 385px;
+    margin: 20px;
+    text-align: center;
+    background-color: rgba(8, 8, 8, 0.418);
+    border-radius: 20px;
+        }
+        h3{
+            text-decoration: solid;
+            font-size: 30px;
+            margin-bottom: 10px;
+            background-color: black;
+            color: white;
+            border-radius: 25px;
+            margin: 0 5px 10px 5px;
+        }
+        a{
+            text-align: center;
+            text-decoration: none;
+            color: black;
+            background-color: whitesmoke;
+            margin: 0 0 0 0px;
+            padding: 7px;
+            border-radius: 15px;
+            font-family: 'Vina Sans', sans-serif;
+            font-size: 25px;
+        }
+    }
+}

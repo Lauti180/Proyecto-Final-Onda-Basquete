@@ -1,0 +1,30 @@
+main {
+    .titulo-contacto{
+        color: white;
+        background-color: black;
+        font-size: 50px;
+        font-family: 'Vina Sans', sans-serif;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    .contacto-flex {
+        display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    background-image: url(../img/loslakersfondo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+        .correo{
+            width: 500px;
+            height: 500px;
+            background-color: rgba(8, 8, 8, 0.418);
+            border-radius: 15px;
+            font-family: 'Vina Sans', sans-serif;
+        }
+        .shaq{
+            width: 550px;
+        }
+    }
+}

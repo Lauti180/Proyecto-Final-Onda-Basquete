@@ -1,0 +1,301 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;0,300;1,100;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;0,300;1,100;1,400;1,500;1,700&family=Vina+Sans&display=swap");
+/*** RESET ***/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: rgba(8, 8, 8, 0.418);
+}
+
+.hero {
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  width: 100%;
+  height: 500px;
+  background-image: url(../img/kobebryant.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero h1 {
+  font-size: 80px;
+  color: black;
+  font-family: "Vina Sans", sans-serif;
+  margin: 10px;
+}
+.hero p {
+  color: black;
+  font-style: italic;
+  font-size: 22px;
+}
+.hero a {
+  color: black;
+  font-style: italic;
+  font-size: 22px;
+}
+
+.productos {
+  background-image: url(../img/kareemaj.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.productos h2 {
+  font-size: 50px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  margin: 5px 5px 5px 5px;
+  padding: 12px 0 12px 0;
+}
+.productos p {
+  font-size: 25px;
+  text-align: center;
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: italic;
+}
+.productos .productos-flex {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.productos .productos-flex div {
+  border: 2px solid black;
+  width: 300px;
+  height: 385px;
+  margin: 20px;
+  text-align: center;
+  background-color: rgba(8, 8, 8, 0.418);
+  border-radius: 20px;
+}
+.productos .productos-flex div img {
+  width: 300px;
+  height: 300px;
+}
+.productos .productos-flex div h3 {
+  text-decoration: solid;
+  font-size: 30px;
+  margin-bottom: 10px;
+  background-color: black;
+  color: white;
+  border-radius: 25px;
+  margin: 0 5px 10px 5px;
+}
+.productos .productos-flex div a {
+  text-decoration: none;
+  background-color: black;
+  font-size: 18px;
+  color: white;
+  border-radius: 12px;
+  padding: 5px;
+}
+
+.envios {
+  background-image: url(../img/michaeljordanbimg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.envios div {
+  width: 60%;
+}
+.envios div h2 {
+  background-color: black;
+  color: white;
+  font-size: 50px;
+  margin: 15px;
+  padding: 5px 0 5px 0;
+  border-radius: 20px;
+}
+.envios div p {
+  font-size: 25px;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: italic;
+  background-color: rgba(0, 0, 0, 0.349);
+}
+.envios img {
+  width: 350px;
+  height: 525px;
+}
+
+main .titulo-catalogo {
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-family: "Vina Sans", sans-serif;
+  padding: 5px;
+  margin-bottom: 0;
+}
+main .catalogo-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  flex-wrap: wrap;
+  background-image: url(../img/fondochicagobulls.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+main .catalogo-flex div {
+  border: 2px solid black;
+  width: 300px;
+  height: 385px;
+  margin: 20px;
+  text-align: center;
+  background-color: rgba(8, 8, 8, 0.418);
+  border-radius: 20px;
+}
+main .catalogo-flex h3 {
+  text-decoration: solid;
+  font-size: 30px;
+  margin-bottom: 10px;
+  background-color: black;
+  color: white;
+  border-radius: 25px;
+  margin: 0 5px 10px 5px;
+}
+main .catalogo-flex a {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  background-color: whitesmoke;
+  margin: 0 0 0 0px;
+  padding: 7px;
+  border-radius: 15px;
+  font-family: "Vina Sans", sans-serif;
+  font-size: 25px;
+}
+
+main .titulo-contacto {
+  color: white;
+  background-color: black;
+  font-size: 50px;
+  font-family: "Vina Sans", sans-serif;
+  text-align: center;
+  margin-bottom: 0;
+}
+main .contacto-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  background-image: url(../img/loslakersfondo.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+main .contacto-flex .correo {
+  width: 500px;
+  height: 500px;
+  background-color: rgba(8, 8, 8, 0.418);
+  border-radius: 15px;
+  font-family: "Vina Sans", sans-serif;
+}
+main .contacto-flex .shaq {
+  width: 550px;
+}
+
+main .titulo-descuentos {
+  color: white;
+  background-color: black;
+  font-size: 50px;
+  font-family: "Vina Sans", sans-serif;
+  text-align: center;
+  border-bottom: 0;
+}
+main .descuentos {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-bottom: 0;
+  background-image: url(../img/goldenstatefondo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-wrap: wrap;
+}
+main .descuentos div {
+  border: 5px solid black;
+  width: 300px;
+  height: 385px;
+  margin: 20px;
+  text-align: center;
+  background-color: rgba(8, 8, 8, 0.418);
+  border-radius: 20px;
+}
+main .descuentos div img {
+  width: 300px;
+  height: 300px;
+}
+main .descuentos div a {
+  text-decoration: none;
+  background-color: black;
+  color: whitesmoke;
+  font-family: "Vina Sans", sans-serif;
+  font-size: 25px;
+  border-radius: 10px;
+  padding: 7px;
+}
+
+main .titulo-nosotros {
+  color: white;
+  background-color: black;
+  font-size: 50px;
+  font-family: "Vina Sans", sans-serif;
+  text-align: center;
+  border-bottom: 0;
+}
+main .nosotros-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-image: url(../img/detroitpistonsfondo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main .nosotros-flex p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  font-size: 18px;
+  margin: 0 0 30px 0;
+  background-color: rgba(0, 0, 0, 0.363);
+  color: white;
+}
+
+.footer {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+}
+.footer h2 {
+  text-align: center;
+  color: white;
+  font-family: "Vina Sans", sans-serif;
+  font-size: 50px;
+}/*# sourceMappingURL=estilos.css.map */
