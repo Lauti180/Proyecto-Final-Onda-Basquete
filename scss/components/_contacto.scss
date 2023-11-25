@@ -28,3 +28,24 @@ main {
         }
     }
 }
+
+.footer {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    h2 {
+        text-align: center;
+        color: white;
+        font-family: 'Vina Sans', sans-serif;
+        font-size: 50px;
+    }
+    .logoig {
+        img{
+            transition: 1s;
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
+}

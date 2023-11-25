@@ -19,7 +19,7 @@ header {
   font-family: 'Josefin Sans', sans-serif;
   width: 100%;
   height: 500px;
-  background-image: url(../img/kobebryant.png);
+  background: linear-gradient(rgba(0, 0, 0, 0.432), rgba(0, 0, 0, 0.432)), url(../img/kobebryant.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -34,7 +34,7 @@ header {
     font-family: 'Vina Sans', sans-serif;
     margin: 10px; }
   .hero p {
-    color: black;
+    color: whitesmoke;
     font-style: italic;
     font-size: 22px; }
   .hero a {
@@ -45,10 +45,13 @@ header {
     background-color: whitesmoke;
     padding: 5px;
     margin: 10px;
-    border-radius: 8px; }
+    border-radius: 8px;
+    transition: 1s; }
+    .hero a:hover {
+      background-color: yellow; }
 
 .productos {
-  background-image: url(../img/kareemaj.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.432), rgba(0, 0, 0, 0.432)), url(../img/kareemaj.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -63,7 +66,7 @@ header {
   .productos p {
     font-size: 25px;
     text-align: center;
-    color: black;
+    color: whitesmoke;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: italic; }
   .productos .productos-flex {
@@ -78,6 +81,9 @@ header {
       text-align: center;
       background-color: rgba(8, 8, 8, 0.418);
       border-radius: 20px; }
+      .productos .productos-flex div:hover {
+        height: 400px;
+        transition-duration: 1.5s; }
       .productos .productos-flex div img {
         width: 300px;
         height: 300px; }
@@ -96,6 +102,10 @@ header {
         color: white;
         border-radius: 12px;
         padding: 5px; }
+        .productos .productos-flex div a:hover {
+          background-color: yellow;
+          color: black;
+          transition: 1s; }
 
 .envios {
   background-image: url(../img/michaeljordanbimg.jpg);
@@ -170,6 +180,25 @@ main .catalogo-flex {
     border-radius: 15px;
     font-family: 'Vina Sans', sans-serif;
     font-size: 25px; }
+    main .catalogo-flex a:hover {
+      background-color: yellow;
+      color: black;
+      transition: 1s; }
+
+.footer {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px; }
+  .footer h2 {
+    text-align: center;
+    color: white;
+    font-family: 'Vina Sans', sans-serif;
+    font-size: 50px; }
+  .footer .logoig img {
+    transition: 1s; }
+    .footer .logoig img:hover {
+      transform: scale(1.1); }
 
 main .titulo-contacto {
   color: white;
@@ -196,6 +225,21 @@ main .contacto-flex {
     font-family: 'Vina Sans', sans-serif; }
   main .contacto-flex .shaq {
     width: 550px; }
+
+.footer {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px; }
+  .footer h2 {
+    text-align: center;
+    color: white;
+    font-family: 'Vina Sans', sans-serif;
+    font-size: 50px; }
+  .footer .logoig img {
+    transition: 1s; }
+    .footer .logoig img:hover {
+      transform: scale(1.1); }
 
 main .titulo-descuentos {
   color: white;
@@ -234,6 +278,25 @@ main .descuentos {
       font-size: 25px;
       border-radius: 10px;
       padding: 7px; }
+      main .descuentos div a:hover {
+        background-color: yellow;
+        color: black;
+        transition: 1s; }
+
+.footer {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px; }
+  .footer h2 {
+    text-align: center;
+    color: white;
+    font-family: 'Vina Sans', sans-serif;
+    font-size: 50px; }
+  .footer .logoig img {
+    transition: 1s; }
+    .footer .logoig img:hover {
+      transform: scale(1.1); }
 
 main .titulo-nosotros {
   color: white;
@@ -269,6 +332,25 @@ main .nosotros-flex {
     color: white;
     font-family: 'Vina Sans', sans-serif;
     font-size: 50px; }
+  .footer .logoig img {
+    transition: 1s; }
+    .footer .logoig img:hover {
+      transform: scale(1.1); }
+
+.footer {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px; }
+  .footer h2 {
+    text-align: center;
+    color: white;
+    font-family: 'Vina Sans', sans-serif;
+    font-size: 50px; }
+  .footer .logoig img {
+    transition: 1s; }
+    .footer .logoig img:hover {
+      transform: scale(1.1); }
 
 /*** MEDIA QUERIE INDEX ***/
 /*** HERO ***/
